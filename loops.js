@@ -63,6 +63,37 @@
      console.log(BobsFollowers[i]);
  }
 
+//  Activity 7
+
+
+let text = "";
+let i = 0;
+do {
+    text = "The number is " + i;
+    console.log(text)
+    i++;
+}
+while (i < 5);
+
+i = 0;
+
+for (i = 0; i < 5; i++) {
+    text = "The number is " + i ;
+    console.log(text)
+}
+
+i = 0;
+
+while (i < 5) {
+    text = "The number is " + i;
+    console.log(text)
+    i++;
+}
+
+
+
+
+
 
 // Activity1/
   let favSongs = ["f1", "f2", "f3", "f4"];
@@ -72,10 +103,18 @@
  favSongs.pop()
   console.log(favSongs);
 
+//  Activity 2 
 
-// let sentence = "All around the World"
-// let lastLetter = sentence.toString().split("").reverse();
-// console.log(lastLetter[0])
+let numbers = [4, 9, 16, 25];
+let map = numbers.map(Math.sqrt)
+let shift = numbers.shift()
+let unshift = numbers.unshift(36)
+let splice = numbers.splice(2, 0, "Lemon", "Kiwi")
+
+console.log(map, shift, unshift)
+
+
+
 
 
 
